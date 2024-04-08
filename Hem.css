@@ -1,11 +1,20 @@
-.Hellsingland_logo {
+body {
   display: flex;
-  justify-content: center;
+  background-image: url("Hellsingland_underground.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
 }
 
-.background_img {
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.background_img {
   background-image: url(Hellsingland_underground.avif);
   background-color: white;
   height: 100%;
   width: 100%;
 }
+*/
