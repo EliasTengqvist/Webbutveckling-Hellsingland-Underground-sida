@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
+
 body {
-  display: flex;
-  background-image: url("Hellsingland_underground.avif");
+  background-color: black;
+  background-image: url("hellsingland_black.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
-  overflow-y: scroll;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 40%;
 }
 
 .logo {
@@ -11,10 +15,46 @@ body {
   align-items: center;
   justify-content: center;
 }
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10 px;
+  color: white;
+  margin: 8px;
+  margin-right: ;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: center;
+}
+a {
+  color: white;
+  margin-right: 100px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  padding: 10px 20px;
+}
 /*.background_img {
   background-image: url(Hellsingland_underground.avif);
   background-color: white;
   height: 100%;
   width: 100%;
+  background-image: url("hellsingland_black.jpeg");
+  background-repeat: no-repeat;
+  background-size: ;
+  overflow-y: scroll;
 }
+
+background-color: rgba(124, 124, 122, 0.5);
 */
