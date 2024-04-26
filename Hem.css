@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
+
+body {
+  background-image: url("hellsingland_underground_3000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+  border-top: 0px;
+}
+header {
+  background-color: rgba(124, 124, 122, 0.5);
+  padding: 10px 20px;
+}
+/*.background_img {
+  background-image: url(Hellsingland_underground.avif);
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+*/

@@ -44,6 +44,7 @@ a {
 header {
   display: flex;
   padding: 10px 20px;
+  border-bottom: 1px solid red;
 }
 /*.background_img {
   background-image: url(Hellsingland_underground.avif);
