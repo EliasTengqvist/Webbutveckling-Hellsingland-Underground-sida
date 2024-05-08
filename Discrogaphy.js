@@ -1,8 +1,6 @@
-console.log("mislyckande");
-
 async function testAPI() {
   const url =
-    "https://spotify23.p.rapidapi.com/search/?q=wham&type=multi&offset=0&limit=10&numberOfTopResults=5";
+    "https://spotify23.p.rapidapi.com/search/?q=HellsinglandUnderground&type=multi&offset=0&limit=10&numberOfTopResults=5";
   const options = {
     method: "GET",
     headers: {
