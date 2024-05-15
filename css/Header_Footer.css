@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
+
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10 px;
+  color: white;
+  margin: 8px;
+  margin-right: ;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: center;
+}
+a {
+  color: white;
+  margin-right: 100px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  padding: 10px 20px;
+  border-bottom: 1px solid red;
+}
+body {
+  background-color: black;
+}

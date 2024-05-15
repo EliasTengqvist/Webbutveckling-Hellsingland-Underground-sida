@@ -2,50 +2,19 @@
 
 body {
   background-color: black;
-  background-image: url("images/hellsingland_black");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 40%;
 }
 
+.bakgrundsbild {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.jacquard-24-regular {
-  font-family: "Jacquard 24", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
-h1 {
-  font-family: "Jacquard 24", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 10 px;
-  color: white;
-  margin: 8px;
-  margin-right: ;
-}
-ul {
-  display: flex;
-  list-style-type: none;
-  color: white;
-  justify-content: center;
-}
-a {
-  color: white;
-  margin-right: 100px;
-  text-decoration: none;
-}
-header {
-  display: flex;
-  padding: 10px 20px;
-  border-bottom: 1px solid red;
-}
 /*.background_img {
   background-image: url(Hellsingland_underground.avif);
   background-color: white;

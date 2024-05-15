@@ -1,7 +1,8 @@
-#house_icon {
-  width: 2%;
+#home {
+  width: 5%;
 }
 
-#house_icon img {
+#home img {
   width: 100%;
+  border-radius: 10px;
 }
