@@ -1,8 +1,31 @@
-#home {
-  width: 5%;
+.Vinyl_Container {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Vinyl {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px gray;
+  margin: 5px;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+.CD_Container {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.CD {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px gray;
+  margin: 5px;
 }
 
-#home img {
-  width: 100%;
-  border-radius: 10px;
+@media screen {
 }
