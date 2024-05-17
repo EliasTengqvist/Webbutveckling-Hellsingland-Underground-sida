@@ -4,30 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/Discography.css" />
-    <link rel="stylesheet" href="css/Header_Footer.css">
+    <link rel="stylesheet" href="css/Header_Footer.css" />
     <title>Discography</title>
   </head>
   <body>
-  <header>
-    <h1><a href="Index.html">Hellsingland Underground</a></h1>
-    <ul>
-      <li><a href="Discography.html">Discography</a></li>
-      <li><a href="Store.html">Store</a></li>
-      <li><a href="Booking.html">Booking</a></li>
-      <li><a href="Contact us.html">Contact Us</a></li>
-    </ul>
-  </header>
-  
-    <div id="home">
-      <a href="Index.html"
-        ><img src="images/HU_logo.png" alt="Hemknapp/Bandlogga"
+    <header>
+      <h1><a href="Index.html">Hellsingland Underground</a></h1>
+      <nav>
+      <ul>
+        <li><a href="Discography.html">Discography</a></li>
+        <li><a href="Store.html">Store</a></li>
+        <li><a href="Contact us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div id="dropdown">
+      <input type="text" id="search-bar" placeholder="Hellsingland Underground" ></input>
+    </div>
+    <div id="searchresults"></div>
+  </body>
+  <footer>
+    <p>Copyright owned by Hellsingland Underground ™</p>
+    <p><h2>Our Socials</h2</p>
+    <div class="Social_media">
+      <a href="https://www.facebook.com/"
+        ><img src="images/facebook.png" alt="Facebook site"
+      /></a>
+      <a href="https://www.Instagram.com/"
+        ><img src="images/instagram.png" alt="Instagram Site"
+      /></a>
+      <a href="https://www.X.com/"
+        ><img src="images/twitter.png" alt="Twitter/X site"
       /></a>
     </div>
-    <footer>
-      <form action="/search" method="get" class="search-form">
-          <input type="text" name="query" placeholder="Sök..." class="search-input">
-          <button type="submit" class="search-button">Sök</button>
-      </form>
-  </body>
+  </footer>
   <script src="Discrogaphy.js"></script>
 </html>

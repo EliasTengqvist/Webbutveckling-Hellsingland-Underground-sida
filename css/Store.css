@@ -1,6 +1,5 @@
 .Vinyl_Container {
   color: white;
-  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -27,5 +26,31 @@ p {
   margin: 5px;
 }
 
-@media screen {
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.Vinyl :hover {
+  transition: 0.3s;
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.CD :hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+@media screen and (max-width: 350px) {
+  .Vinyl_Container {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .CD_Container {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
 }

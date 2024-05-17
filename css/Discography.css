@@ -1,8 +1,25 @@
-#home {
-  width: 5%;
+#dropdown div {
+  padding: 8px;
+  cursor: pointer;
+  color: black;
+}
+#dropdown div:hover {
+  background-color: #f0f0f0;
+}
+#dropdown {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-#home img {
-  width: 100%;
-  border-radius: 10px;
+#searchresults {
+  flex-direction: column;
+  color: white;
+  margin: auto;
+  max-width: 100%;
+}
+
+.album_div {
+  max-width: 300px;
+  margin: auto;
 }

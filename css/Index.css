@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
 
 body {
+  background-image: url("images/He");
   background-color: black;
 }
 
@@ -8,9 +9,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  background-size: contain;
 }
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bakgrundsbild2 {
+  display: none;
+}
+
+@media screen and (max-width: 350px) {
+  .bakgrundsbild {
+    display: none;
+  }
+  .bakgrundsbild2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
